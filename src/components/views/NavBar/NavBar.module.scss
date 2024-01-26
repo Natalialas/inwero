@@ -2,10 +2,13 @@
 
 section{
     background-color: $color-light;
-    padding: 10px;
+    padding: 10px 150px;
   }
   
   .navBar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +19,7 @@ section{
     color: $color-dark;
     text-decoration: none;
     font-family: $font-text;
-    font-weight: 500;
+    font-weight: bold;
     position: relative;
   }
   

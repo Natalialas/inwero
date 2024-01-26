@@ -1,0 +1,74 @@
+@import '../../../styles/settings.scss';
+
+.aboutSection {
+    background-color: $color-gray;
+    width: 100%;
+}
+
+.container {
+    padding: 50px 0;
+}
+
+.sectionTitle {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 500;
+    &::after {
+        content: '';
+        display: block;
+        width: 60px;
+        height: 3px;
+        background-color: $color-success;
+        margin: 10px auto;
+    }
+}
+
+.card {
+    border: 1px solid $color-gray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.cardTitle {
+    color: $color-dark;
+    font-size: 1.5rem;
+    margin: 15px;
+    text-align: center;
+}
+
+.cardText {
+    color: $color-dark;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.descriptionSection {
+    padding: 30px 0;
+    color: $color-dark;
+}
+
+.descriptionSection h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.descriptionSection p {
+    font-size: 1rem;
+}
