@@ -4,19 +4,23 @@ import styles from './Contact.module.scss';
 const Contact = () => {
     return (
         <div className={styles.contactSection}>
-            <h2>Kontakt</h2>
+            <h2 className={styles.sectionTitle}>KONTAKT</h2>
             <div className={styles.contactInfo}>
                 <div className={styles.contactItem}>
+                    <p>INWERO Robert Skulimowski</p>
+                    <p>NIP: 741-143-61-45</p>
+                </div>
+                <div className={styles.contactItem}>
                     <FaMapMarkerAlt className={styles.contactIcon} />
-                    <p>Adres: ul. Przykładowa 123, 00-000 Warszawa</p>
+                    <p>Adres: ul. Dąbrowskiego 46, 14-300 Morąg</p>
                 </div>
                 <div className={styles.contactItem}>
                     <FaPhoneAlt className={styles.contactIcon} />
-                    <p>Telefon: +48 123 456 789</p>
+                    <p>Telefon: +48 509 267 206</p>
                 </div>
                 <div className={styles.contactItem}>
                     <FaEnvelope className={styles.contactIcon} />
-                    <p>Email: kontakt@example.com</p>
+                    <p>Email: robertbiuro@interia.pl</p>
                 </div>
             </div>
         </div>

@@ -20,7 +20,7 @@ section{
     color: $color-dark;
     text-decoration: none;
     font-family: $font-text;
-    font-weight: bold;
+    font-weight: $font-bold;
     position: relative;
   }
   
@@ -45,6 +45,7 @@ section{
     display: inline-block;
     text-align: center;
     font-family: $font-text;
+    font-weight: $font-regular;
     font-size: 16px;
     padding: 0 10px;
     margin: 8px;
