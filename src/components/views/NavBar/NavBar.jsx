@@ -6,13 +6,14 @@ const NavBar = () => {
     return (
         <section className={styles.navBar}>
             <div className={styles.icon}>
-                <Link to="/"><span className="fa fa-building" /> INWERO</Link>
+                <Link to="/"> INWERO</Link>
              </div>
             <div className={styles.list}>
                 <ul>
-                    <li><NavLink className={({ isActive }) => isActive ? styles.linkActive : undefined} to="/">Home</NavLink></li>
-                    <li><NavLink className={({ isActive }) => isActive ? styles.linkActive : undefined} to="/favorite">Favorite</NavLink></li>
-                    <li><NavLink className={({ isActive }) => isActive ? styles.linkActive : undefined} to="/about">About</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? styles.linkActive : undefined} to="/">HOME</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? styles.linkActive : undefined} to="/o-osiedlu">O OSIEDLU</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? styles.linkActive : undefined} to="/rzuty">RZUTY MIESZKAŃ</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? styles.linkActive : undefined} to="/kontakt">KONTAKT</NavLink></li>
                 </ul>
             </div>
         </section>
