@@ -1,0 +1,30 @@
+@import '../../../styles/settings.scss';
+
+.contact-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.contact-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 18px;
+}
