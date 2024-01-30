@@ -6,8 +6,8 @@ const Contact = () => {
         <div className={styles.contactSection}>
             <h2 className={styles.sectionTitle}>KONTAKT</h2>
             <div className={styles.contactInfo}>
-                <div className={styles.contactItem}>
-                    <p>INWERO Robert Skulimowski</p>
+                <div className={styles.contactItemInfo}>
+                    <p><b>INWERO Robert Skulimowski</b></p>
                     <p>NIP: 741-143-61-45</p>
                 </div>
                 <div className={styles.contactItem}>

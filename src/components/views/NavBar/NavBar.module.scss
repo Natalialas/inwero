@@ -1,61 +1,73 @@
 @import '../../../styles/settings.scss';
 
-section{
-    background-color: $color-light;
-    padding: 10px 150px;
+section {
+  background-color: $color-light;
+  padding: 10px 20px;
+}
+
+.navBar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media only screen and (min-width: 768px) {
+      padding: 10px 150px;
   }
-  
-  .navBar {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+
+.icon a {
+  font-size: 24px;
+  color: $color-dark;
+  text-decoration: none;
+  font-family: $font-text;
+  font-weight: $font-bold;
+  position: relative;
+
+  @media only screen and (min-width: 768px) {
+      font-size: 30px;
   }
-  
-  .icon a {
-    font-size: 30px;
-    color: $color-dark;
-    text-decoration: none;
-    font-family: $font-text;
-    font-weight: $font-bold;
-    position: relative;
-  }
-  
-  .icon a::after {
-    content: '';
-    display: block;
-    width: 50%; 
-    height: 2px; 
-    background-color: $color-success; 
-    position: absolute; 
-    bottom: -3px; 
-    left: 25%; 
+}
+
+.icon a::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 2px;
+  background-color: $color-success;
+  position: absolute;
+  bottom: -3px;
+  left: 25%;
+}
+
+.list ul {
+  padding: 0;
+  margin: 0;
+}
+
+.list ul li {
+  display: inline-block;
+  text-align: center;
+  font-family: $font-text;
+  font-weight: $font-regular;
+  font-size: 16px;
+  padding: 0 10px;
+  margin: 8px;
+
+  & a {
+      text-decoration: none;
+      list-style: none;
+      color: $color-dark;
+
+      @media only screen and (min-width: 768px) {
+          font-size: 16px;
+      }
   }
 
-  
-  .list ul {
-    padding: 0;
-    margin: 0;
+  & .linkActive {
+      color: $color-success;
   }
-  
-  .list ul li{
-    display: inline-block;
-    text-align: center;
-    font-family: $font-text;
-    font-weight: $font-regular;
-    font-size: 16px;
-    padding: 0 10px;
-    margin: 8px;
-      & a {
-          text-decoration: none;
-          list-style: none;
-          color: $color-dark;
-          
-      }
-      & .linkActive {
-        color: $color-success;
-      }
-  }
+}
