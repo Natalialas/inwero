@@ -38,10 +38,10 @@ const NavBar = () => {
              </div>
             <div className={styles.list}>
                 <ul>
-                    <li><ScrollLink to="home" smooth={true} duration={500} spy={true} offset={-70} className={activeSection === 'home' ? styles.linkActive : ''}>HOME</ScrollLink></li>
-                    <li><ScrollLink to="o-osiedlu" smooth={true} duration={500} spy={true} offset={-70} className={activeSection === 'o-osiedlu' ? styles.linkActive : ''}>O OSIEDLU</ScrollLink></li>
-                    <li><ScrollLink to="rzuty" smooth={true} duration={500} spy={true} offset={-70} className={activeSection === 'rzuty' ? styles.linkActive : ''}>RZUTY MIESZKAŃ</ScrollLink></li>
-                    <li><ScrollLink to="kontakt" smooth={true} duration={500} spy={true} offset={-70} className={activeSection === 'kontakt' ? styles.linkActive : ''}>KONTAKT</ScrollLink></li>
+                    <li><ScrollLink to="home" smooth={true} duration={100} spy={true} offset={-70} className={activeSection === 'home' ? styles.linkActive : ''}>HOME</ScrollLink></li>
+                    <li><ScrollLink to="o-osiedlu" smooth={true} duration={100} spy={true} offset={-70} className={activeSection === 'o-osiedlu' ? styles.linkActive : ''}>O OSIEDLU</ScrollLink></li>
+                    <li><ScrollLink to="rzuty" smooth={true} duration={100} spy={true} offset={-70} className={activeSection === 'rzuty' ? styles.linkActive : ''}>RZUTY MIESZKAŃ</ScrollLink></li>
+                    <li><ScrollLink to="kontakt" smooth={true} duration={100} spy={true} offset={-70} className={activeSection === 'kontakt' ? styles.linkActive : ''}>KONTAKT</ScrollLink></li>
                 </ul>
             </div>
         </section>

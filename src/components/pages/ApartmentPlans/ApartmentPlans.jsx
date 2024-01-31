@@ -19,7 +19,72 @@ const ApartmentPlans = () => {
                 <div className={styles.imageContainer} onClick={() => handleImageClick("/images/piwnica.png")}>
                     <div className={styles.imageInfo}>
                         <h3 className={styles.sectionHeading}>Piwnica</h3>
-                        <p className={styles.description}>Informacje o piwnicy</p>
+                        <table className={styles.table}>
+                            <thead>
+                                <tr>
+                                    <th>Numer</th>
+                                    <th>Kondygnacja</th>
+                                    <th>Wartość</th>
+                                    <th>Dostępność</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td> </td>
+                                    <td>GARAŻ</td>
+                                    <td> </td>
+                                    <td> </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>miejsce postojowe</td>
+                                    <td>35.000 zł</td>
+                                    <td>Dostępne</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>miejsce postojowe</td>
+                                    <td>35.000 zł</td>
+                                    <td>Dostępne</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>miejsce postojowe</td>
+                                    <td>35.000 zł</td>
+                                    <td>Dostępne</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>miejsce postojowe</td>
+                                    <td>35.000 zł</td>
+                                    <td>Dostępne</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>miejsce postojowe</td>
+                                    <td>35.000 zł</td>
+                                    <td>Dostępne</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>miejsce postojowe</td>
+                                    <td>35.000 zł</td>
+                                    <td>Dostępne</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>miejsce postojowe</td>
+                                    <td>35.000 zł</td>
+                                    <td>Dostępne</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>miejsce postojowe</td>
+                                    <td>35.000 zł</td>
+                                    <td>Dostępne</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                     <img src="/images/piwnica.png" alt="Rzut piwnicy" className={styles.apartmentImage} />
                 </div>
@@ -60,11 +125,6 @@ const ApartmentPlans = () => {
                     </div>
                 </div>
             )}
-            <div className={styles.descLink}>
-                <a href="/images/zestawienie.pdf" target="_blank" rel="noopener noreferrer">
-                    Zestawienie mieszkań
-                </a>
-            </div>
         </div>
     );
 };
