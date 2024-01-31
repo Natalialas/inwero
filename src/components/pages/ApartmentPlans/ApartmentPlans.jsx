@@ -61,7 +61,7 @@ const ApartmentPlans = () => {
                 </div>
             )}
             <div className={styles.descLink}>
-                <a href="/images/rozklad.png" target="_blank" rel="noopener noreferrer">
+                <a href="/images/zestawienie.pdf" target="_blank" rel="noopener noreferrer">
                     Zestawienie mieszkań
                 </a>
             </div>
