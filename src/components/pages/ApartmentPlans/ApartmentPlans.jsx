@@ -21,14 +21,14 @@ const ApartmentPlans = () => {
                 </div>
                 <div className={styles.imageContainer}>
                     <div className={styles.imageInfo}>
-                        <h3 className={styles.sectionHeading}>1 piętro</h3>
+                        <h3 className={styles.sectionHeading}>Piętro 1</h3>
                         <p className={styles.description}>Informacje o 1 piętrze</p>
                     </div>
                     <img src="/images/1pietro.png" alt="Rzut 1 piętra" className={styles.apartmentImage} />
                 </div>
                 <div className={styles.imageContainer}>
                     <div className={styles.imageInfo}>
-                        <h3 className={styles.sectionHeading}>2piętro</h3>
+                        <h3 className={styles.sectionHeading}>Piętro 2</h3>
                         <p className={styles.description}>Informacje o 2 piętrze</p>
                     </div>
                     <img src="/images/2pietro.png" alt="Rzut 2 piętra" className={styles.apartmentImage} />
