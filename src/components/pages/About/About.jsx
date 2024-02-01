@@ -17,7 +17,7 @@ const About = () => {
                                 Doskonała lokalizacja
                             </Card.Title>
                             <Card.Text className={styles.cardText}>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla felis nunc, luctus a imperdiet in, laoreet sit amet sem. Integer nec leo a ligula ultricies sodales.
+                                Osiedle Bursztynowe powstaje przy ulicy Bursztynowej w Morągu, co daje możliwość szybkiego dostępu do pełnej infrastruktury miasta.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -32,7 +32,7 @@ const About = () => {
                                 Przemyślany projekt
                             </Card.Title>
                             <Card.Text className={styles.cardText}>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla felis nunc, luctus a imperdiet in, laoreet sit amet sem. Integer nec leo a ligula ultricies sodales.
+                                Wysokiej jakości materiały budowlane oraz doświadczona ekipa wykonawcza, gwarantują komfort mieszkania na naszym osiedlu przez długie lata.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -47,7 +47,7 @@ const About = () => {
                                 Bliskość zielenii
                             </Card.Title>
                             <Card.Text className={styles.cardText}>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla felis nunc, luctus a imperdiet in, laoreet sit amet sem. Integer nec leo a ligula ultricies sodales.
+                                Osiedle Bursztynowe usytuowane jest na uboczu, z okien mieszkań rozciąga się widok na tereny zielone, natomiast trasa do rynku zajmuje jedynie 5 minut.
                             </Card.Text>
                         </Card.Body>
                     </Card>

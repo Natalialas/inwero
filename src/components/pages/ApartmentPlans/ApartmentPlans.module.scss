@@ -28,7 +28,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    align-items: stretch;
+    text-align: center;
 
     &:nth-child(even) {
         direction: rtl;
@@ -40,6 +40,7 @@
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    align-self: self-end;
 }
 
 .apartmentImage:hover {
@@ -50,7 +51,6 @@
     background-color: $color-light;
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,4 +125,27 @@
 
 .table tbody tr:hover {
     background-color: #f0f0f0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .apartmentGrid {
+        grid-template-columns: 1fr; 
+    }
+
+    .imageContainer {
+        grid-template-columns: 1fr; 
+        direction: ltr; 
+
+    .imageInfo {
+        text-align: center; 
+    }
+
+    .table {
+        margin-top: 20px; 
+    }
+
+    .apartmentImage {
+        margin-top: 20px;
+    }
+}
 }

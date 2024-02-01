@@ -27,11 +27,17 @@
 .card {
     border: 1px solid $color-gray;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease; 
+    display: flex;
+    flex-direction: column;
 
     &:hover {
         box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
     }
+}
+
+.card-body {
+    flex-grow: 1;
 }
 
 .icon {
@@ -70,4 +76,10 @@
 
 .descriptionSection p {
     font-size: 1rem;
+}
+
+@media (max-width: 3000px) {
+    .card {
+        flex-direction: row;
+    }
 }
