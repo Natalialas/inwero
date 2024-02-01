@@ -78,8 +78,28 @@
     font-size: 1rem;
 }
 
-@media (max-width: 3000px) {
+@media (max-width: 768px) {
+    .descriptionSection {
+        padding: 20px 10px;
+    }
+
+    .descriptionSection p {
+        font-size: 0.9rem;
+    }
     .card {
-        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    .cardTitle {
+        font-size: 1.2rem;
+    }
+
+    .cardText {
+        font-size: 0.9rem;
+    }
+
+    .icon img {
+        max-width: 80px; 
+        max-height: 80px;
     }
 }
