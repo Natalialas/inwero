@@ -24,6 +24,7 @@ const NavBar = () => {
                 }
             });
         };
+        
     
         window.addEventListener('scroll', handleScroll);
         return () => {
