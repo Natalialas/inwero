@@ -84,12 +84,20 @@
 
 .closeButton {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 1.5rem;
+    top: -70px;
+    right: 0;
+    font-size: 2rem;
     color: #fff;
     cursor: pointer;
     z-index: 1001;
+    border-radius: 50%;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
 }
 
 .modalImage {
@@ -135,6 +143,7 @@
     .imageContainer {
         grid-template-columns: 1fr; 
         direction: ltr; 
+    }
 
     .imageInfo {
         text-align: center; 
@@ -147,7 +156,6 @@
     .apartmentImage {
         margin-top: 20px;
     }
-}
 }
 
 @media only screen and (max-width: 1750px) {

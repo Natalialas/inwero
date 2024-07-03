@@ -229,7 +229,7 @@ const ApartmentPlans = () => {
                                     <td>M14</td>
                                     <td>31,73</td>
                                     <td>6.600</td>
-                                    <td>209.418 zł zł</td>
+                                    <td>209.418 zł</td>
                                     <td>Dostępne</td>
                                 </tr>
                                 <tr>
@@ -276,7 +276,7 @@ const ApartmentPlans = () => {
                                     <td>M18</td>
                                     <td>31,73</td>
                                     <td>6.900</td>
-                                    <td>218.937 zł zł</td>
+                                    <td>218.937 zł</td>
                                     <td><b>REZERWACJA</b></td>
                                 </tr>
                                 <tr>
@@ -294,7 +294,7 @@ const ApartmentPlans = () => {
             </div>
             {selectedImage && (
                 <div className={styles.modalOverlay} onClick={handleCloseModal}>
-                    <div className={styles.modalContent}>
+                    <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
                         <span className={styles.closeButton} onClick={handleCloseModal}>x</span>
                         <img src={selectedImage} alt="Powiększone zdjęcie" className={styles.modalImage} />
                     </div>
