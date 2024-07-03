@@ -1,75 +1,55 @@
 @import '../../../styles/settings.scss';
 
-section {
-  background-color: $color-light;
-  padding: 10px 20px;
-}
-
-
 .navBar {
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 1000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: $color-light;
+  padding: 10px 20px;
 
   @media only screen and (min-width: 768px) {
-      padding: 10px 150px;
+    padding: 10px 150px;
   }
 }
 
-.icon a {
+.iconLink {
   font-size: 24px;
-  color: $color-dark;
   text-decoration: none;
+  position: relative;
   font-family: $font-text;
   font-weight: $font-bold;
-  position: relative;
+  color: $color-dark;
 
   @media only screen and (min-width: 768px) {
-      font-size: 30px;
+    font-size: 30px;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    background-color: $color-success;
+    position: absolute;
+    bottom: -3px;
+    left: 25%;
   }
 }
 
-.icon a::after {
-  content: '';
-  display: block;
-  width: 50%;
-  height: 2px;
-  background-color: $color-success;
-  position: absolute;
-  bottom: -3px;
-  left: 25%;
-}
-
-.list ul {
-  padding: 0;
-  margin: 0;
-}
-
-.list ul li {
-  display: inline-block;
-  text-align: center;
+.navLink {
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+  color: $color-dark;
   font-family: $font-text;
   font-weight: $font-regular;
-  font-size: 16px;
-  padding: 0 10px;
-  margin: 8px;
 
-  & a {
-      cursor: pointer;
-      text-decoration: none;
-      list-style: none;
-      color: $color-dark;
-
-      @media only screen and (min-width: 768px) {
-          font-size: 16px;
-      }
+  @media only screen and (min-width: 768px) {
+    font-size: 16px;
   }
+}
 
-  & .linkActive {
-      color: $color-success;
-  }
+.linkActive {
+  color: $color-success;
 }
