@@ -135,6 +135,20 @@
     background-color: #f0f0f0;
 }
 
+.viewButton {
+    background-color: $color-success;
+    color: $color-light;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: darken($color-success, 10%);
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .apartmentGrid {
         grid-template-columns: 1fr; 
