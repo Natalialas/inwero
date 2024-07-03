@@ -177,3 +177,43 @@
         align-self: center;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .sectionTitle {
+        font-size: 1.5rem;
+    }
+
+    .apartmentGrid {
+        gap: 20px;
+    }
+
+    .imageContainer {
+        grid-template-columns: 1fr; 
+        gap: 10px;
+    }
+
+    .table {
+        font-size: 0.8rem;
+    }
+
+    .table th,
+    .table td {
+        padding: 5px;
+    }
+
+    .sectionHeading {
+        font-size: 1.2rem;
+    }
+
+    .viewButton {
+        padding: 3px 6px;
+    }
+
+    .apartmentImage {
+        margin-top: 10px;
+    }
+}
