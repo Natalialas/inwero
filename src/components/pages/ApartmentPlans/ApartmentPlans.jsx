@@ -89,7 +89,12 @@ const ApartmentPlans = () => {
                             </tbody>
                         </table>
                     </div>
-                    <img src="/images/piwnica.png" alt="Rzut piwnicy" className={styles.apartmentImage} />
+                    <img 
+                        src="/images/piwnica.png" 
+                        alt="Rzut piwnicy" 
+                        className={styles.apartmentImage} 
+                        onClick={() => handleImageClick("/images/piwnica.png")} 
+                    />
                 </div>
                 <div className={styles.imageContainer}>
                     <div className={styles.imageInfo}>
@@ -157,7 +162,12 @@ const ApartmentPlans = () => {
                             </tbody>
                         </table>
                     </div>
-                    <img src="/images/parter.png" alt="Rzut parteru" className={styles.apartmentImage} />
+                    <img 
+                        src="/images/parter.png" 
+                        alt="Rzut parteru" 
+                        className={styles.apartmentImage} 
+                        onClick={() => handleImageClick("/images/parter.png")} 
+                    />
                 </div>
                 <div className={styles.imageContainer}>
                     <div className={styles.imageInfo}>
@@ -217,7 +227,12 @@ const ApartmentPlans = () => {
                             </tbody>
                         </table>
                     </div>
-                    <img src="/images/1pietro.png" alt="Rzut 1 piętra" className={styles.apartmentImage} />
+                    <img 
+                        src="/images/1pietro.png" 
+                        alt="Rzut piętra 1" 
+                        className={styles.apartmentImage} 
+                        onClick={() => handleImageClick("/images/1pietro.png")} 
+                    />
                 </div>
                 <div className={styles.imageContainer}>
                     <div className={styles.imageInfo}>
@@ -269,7 +284,12 @@ const ApartmentPlans = () => {
                             </tbody>
                         </table>
                     </div>
-                    <img src="/images/2pietro.png" alt="Rzut 2 piętra" className={styles.apartmentImage} />
+                    <img 
+                        src="/images/2pietro.png" 
+                        alt="Rzut 2 piętra" 
+                        className={styles.apartmentImage}
+                        onClick={() => handleImageClick("/images/2pietro.png")}
+                    />
                 </div>
                 <div className={styles.imageContainer}>
                     <div className={styles.imageInfo}>
@@ -321,7 +341,12 @@ const ApartmentPlans = () => {
                             </tbody>
                         </table>
                     </div>
-                    <img src="/images/poddasze.png" alt="Rzut poddasza" className={styles.apartmentImage} />
+                    <img 
+                        src="/images/poddasze.png" 
+                        alt="Rzut poddasza" 
+                        className={styles.apartmentImage}
+                        onClick={() => handleImageClick("/images/poddasze.png")}
+                    />
                 </div>
             </div>
             {selectedImage && (
