@@ -108,7 +108,7 @@ const ApartmentPlans = () => {
                                     <td>1</td>
                                     <td>28,35</td>
                                     <td>6.000</td>
-                                    <td><b>SPRZEDANE</b></td>
+                                    <td>Dostępne</td>
                                 </tr>
                                 <tr>
                                     <td>U3</td>
@@ -122,7 +122,7 @@ const ApartmentPlans = () => {
                                     <td>2</td>
                                     <td>31,73</td>
                                     <td>6.000</td>
-                                    <td><b>SPRZEDANE</b></td>
+                                    <td>Dostępne</td>
                                 </tr>
                                 <tr>
                                     <td>U5</td>
@@ -136,7 +136,7 @@ const ApartmentPlans = () => {
                                     <td>1</td>
                                     <td>21,87</td>
                                     <td>6.000</td>
-                                    <td><b>SPRZEDANE</b></td>
+                                    <td>Dostępne</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -223,7 +223,7 @@ const ApartmentPlans = () => {
                                     <td>31,73</td>
                                     <td>6.600</td>
                                     <td>209.418 zł</td>
-                                    <td>Dostępne</td>
+                                    <td><b>REZERWACJA</b></td>
                                 </tr>
                                 <tr>
                                     <td>M14</td>
@@ -277,7 +277,7 @@ const ApartmentPlans = () => {
                                     <td>31,73</td>
                                     <td>6.900</td>
                                     <td>218.937 zł zł</td>
-                                    <td>Dostępne</td>
+                                    <td><b>REZERWACJA</b></td>
                                 </tr>
                                 <tr>
                                     <td>M19</td>
