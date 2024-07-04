@@ -35,56 +35,56 @@ const ApartmentPlans = () => {
                                     <td>miejsce postojowe</td>
                                     <td>35.000 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/piwnica.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/garaż/MP1.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
                                     <td>miejsce postojowe</td>
                                     <td>35.000 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/piwnica.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/garaż/MP2.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
                                     <td>miejsce postojowe</td>
                                     <td>35.000 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/piwnica.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/garaż/MP3.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
                                     <td>miejsce postojowe</td>
                                     <td>35.000 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/piwnica.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/garaż/MP4.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
                                     <td>miejsce postojowe</td>
                                     <td>35.000 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/piwnica.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/garaż/MP5.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>6</td>
                                     <td>miejsce postojowe</td>
                                     <td>35.000 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/piwnica.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/garaż/MP6.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>7</td>
                                     <td>miejsce postojowe</td>
                                     <td>35.000 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/piwnica.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/garaż/MP7.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>8</td>
                                     <td>miejsce postojowe</td>
                                     <td>35.000 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/piwnica.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/garaż/MP8.png")}>Zobacz</button></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -117,7 +117,7 @@ const ApartmentPlans = () => {
                                     <td>21,87</td>
                                     <td>6.000</td>
                                     <td><b>SPRZEDANE</b></td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/parter.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/parter/U1.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>U2</td>
@@ -125,7 +125,7 @@ const ApartmentPlans = () => {
                                     <td>28,35</td>
                                     <td>6.000</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/parter.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/parter/U2.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>U3</td>
@@ -133,7 +133,7 @@ const ApartmentPlans = () => {
                                     <td>31,73</td>
                                     <td>6.000</td>
                                     <td><b>SPRZEDANE</b></td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/parter.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/parter/U3.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>U4</td>
@@ -141,7 +141,7 @@ const ApartmentPlans = () => {
                                     <td>31,73</td>
                                     <td>6.000</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/parter.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/parter/U4.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>U5</td>
@@ -149,7 +149,7 @@ const ApartmentPlans = () => {
                                     <td>28,35</td>
                                     <td>6.000</td>
                                     <td><b>SPRZEDANE</b></td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/parter.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/parter/U5.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>U6</td>
@@ -157,7 +157,7 @@ const ApartmentPlans = () => {
                                     <td>21,87</td>
                                     <td>6.000</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/parter.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/parter/U6.png")}>Zobacz</button></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -190,7 +190,7 @@ const ApartmentPlans = () => {
                                     <td>6.300</td>
                                     <td> </td>
                                     <td><b>SPRZEDANE</b></td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/1pietro.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/Piętro1/U7.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>U8</td>
@@ -198,7 +198,7 @@ const ApartmentPlans = () => {
                                     <td>6.300</td>
                                     <td> </td>
                                     <td><b>SPRZEDANE</b></td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/1pietro.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/Piętro1/U8.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>M9</td>
@@ -206,7 +206,7 @@ const ApartmentPlans = () => {
                                     <td>6.300</td>
                                     <td>199.899 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/1pietro.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/Piętro1/M9.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>M10</td>
@@ -214,7 +214,7 @@ const ApartmentPlans = () => {
                                     <td>6.300</td>
                                     <td>199.899 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/1pietro.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/Piętro1/M10.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>M11</td>
@@ -222,7 +222,7 @@ const ApartmentPlans = () => {
                                     <td>6.300</td>
                                     <td>349.650 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/1pietro.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/Piętro1/M11.png")}>Zobacz</button></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -312,7 +312,7 @@ const ApartmentPlans = () => {
                                     <td>6.900</td>
                                     <td>425.454 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/poddasze.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/Poddasze/M16.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>M17</td>
@@ -320,7 +320,7 @@ const ApartmentPlans = () => {
                                     <td>6.900</td>
                                     <td>218.937 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/poddasze.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/Poddasze/M17.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>M18</td>
@@ -328,7 +328,7 @@ const ApartmentPlans = () => {
                                     <td>6.900</td>
                                     <td>218.937 zł</td>
                                     <td><b>REZERWACJA</b></td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/poddasze.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/Poddasze/M18.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>M19</td>
@@ -336,7 +336,7 @@ const ApartmentPlans = () => {
                                     <td>6.900</td>
                                     <td>382.950 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/poddasze.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/Poddasze/M19.png")}>Zobacz</button></td>
                                 </tr>
                             </tbody>
                         </table>
