@@ -7,7 +7,7 @@ const CarouselHeader = () => {
       <Carousel.Item>
         <img
           className={`${styles.carouselImage} d-block w-100`}
-          src="/images/carousel-3.jpg"
+          src="/images/carousel-1.jpg"
           alt="Drugie zdjęcie"
         />
       </Carousel.Item>
@@ -15,6 +15,13 @@ const CarouselHeader = () => {
         <img
           className={`${styles.carouselImage} d-block w-100`}
           src="/images/carousel-2.jpg"
+          alt="Drugie zdjęcie"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className={`${styles.carouselImage} d-block w-100`}
+          src="/images/carousel-3.jpg"
           alt="Drugie zdjęcie"
         />
       </Carousel.Item>
