@@ -78,14 +78,16 @@
 
 .modalContent {
     position: relative;
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 80vw;
+    max-height: 80vh; 
+    display: flex;
+    justify-content: center;
 }
 
 .closeButton {
     position: absolute;
-    top: -70px;
-    right: 0;
+    top: -50px;
+    right: 10px;
     font-size: 2rem;
     color: #fff;
     cursor: pointer;
