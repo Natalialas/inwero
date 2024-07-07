@@ -255,7 +255,7 @@ const ApartmentPlans = () => {
                                     <td>6.600</td>
                                     <td>366.300 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/2pietro.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/Piętro2/M12.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>M13</td>
@@ -263,7 +263,7 @@ const ApartmentPlans = () => {
                                     <td>6.600</td>
                                     <td>209.418 zł</td>
                                     <td><b>REZERWACJA</b></td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/2pietro.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/Piętro2/M13.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>M14</td>
@@ -271,7 +271,7 @@ const ApartmentPlans = () => {
                                     <td>6.600</td>
                                     <td>209.418 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/2pietro.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/Piętro2/M14.png")}>Zobacz</button></td>
                                 </tr>
                                 <tr>
                                     <td>M15</td>
@@ -279,7 +279,7 @@ const ApartmentPlans = () => {
                                     <td>6.600</td>
                                     <td>366.300 zł</td>
                                     <td>Dostępne</td>
-                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/2pietro.png")}>Zobacz</button></td>
+                                    <td><button className={styles.viewButton} onClick={() => handleImageClick("/images/Piętro2/M15.png")}>Zobacz</button></td>
                                 </tr>
                             </tbody>
                         </table>
