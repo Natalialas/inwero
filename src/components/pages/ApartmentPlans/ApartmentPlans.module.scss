@@ -219,3 +219,47 @@
         margin-top: 10px;
     }
 }
+
+@media only screen and (max-width: 450px) {
+    .container {
+        padding: 10px;
+    }
+
+    .sectionTitle {
+        font-size: 1.2rem;
+    }
+
+    .apartmentGrid {
+        gap: 10px;
+    }
+
+    .imageContainer {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    .imageInfo {
+        padding: 5px;
+    }
+
+    .sectionHeading {
+        font-size: 1rem;
+    }
+
+    .table {
+        font-size: 0.7rem;
+    }
+
+    .table th,
+    .table td {
+        padding: 3px;
+    }
+
+    .viewButton {
+        padding: 2px 4px;
+    }
+
+    .apartmentImage {
+        margin-top: 5px;
+    }
+}
