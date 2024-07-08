@@ -39,3 +39,15 @@
     margin-right: 10px;
     margin-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .sectionTitle {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .sectionTitle {
+        font-size: 1.5rem;
+    }
+}
